@@ -44,7 +44,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: #03a9f4;
+  background: #071218cc;
   mix-blend-mode: overlay;
 }
 
@@ -135,10 +135,10 @@ a {
     padding: 40px;
   }
   .text h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .text h3 {
-    font-size: 3em;
+    font-size: 6em;
   }
 
   .showcase img {
