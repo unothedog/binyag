@@ -23,7 +23,7 @@
   justify-content: space-between;
   align-items: center;
   background: #111;
-  transition: 0.5s;
+  transition: 0.8s;
   z-index: 2;
 }
 
@@ -128,7 +128,7 @@
   margin-top: 10px;
   color: #111;
   letter-spacing: 2px;
-  transition: 0.2s;
+  transition: 0.8s;
   font-family: 'Alfa Slab One', cursive;
 }
 
@@ -196,8 +196,8 @@ a {
   height: 100%;
   background-color: #8592ad;
   opacity: 0;
-  -webkit-transition: 0.2s opacity ease-in-out;
-  transition: 0.2s opacity ease-in-out;
+  -webkit-transition: 0.8s opacity ease-in-out;
+  transition: 0.8s opacity ease-in-out;
 }
 
 .animated-button:hover::before {
@@ -221,8 +221,8 @@ a {
     to(#2662d9)
   );
   background: linear-gradient(to left, rgba(8, 20, 43, 0), #2662d9);
-  -webkit-animation: 2s animateTop linear infinite;
-  animation: 2s animateTop linear infinite;
+  -webkit-animation: 8s animateTop linear infinite;
+  animation: 8s animateTop linear infinite;
 }
 
 @-webkit-keyframes animateTop {
@@ -260,8 +260,8 @@ a {
     to(#2662d9)
   );
   background: linear-gradient(to top, rgba(8, 20, 43, 0), #2662d9);
-  -webkit-animation: 2s animateRight linear -1s infinite;
-  animation: 2s animateRight linear -1s infinite;
+  -webkit-animation: 8s animateRight linear -1s infinite;
+  animation: 8s animateRight linear -1s infinite;
 }
 
 @-webkit-keyframes animateRight {
@@ -299,8 +299,8 @@ a {
     to(#2662d9)
   );
   background: linear-gradient(to right, rgba(8, 20, 43, 0), #2662d9);
-  -webkit-animation: 2s animateBottom linear infinite;
-  animation: 2s animateBottom linear infinite;
+  -webkit-animation: 8s animateBottom linear infinite;
+  animation: 8s animateBottom linear infinite;
 }
 
 @-webkit-keyframes animateBottom {
@@ -338,8 +338,8 @@ a {
     to(#2662d9)
   );
   background: linear-gradient(to bottom, rgba(8, 20, 43, 0), #2662d9);
-  -webkit-animation: 2s animateLeft linear -1s infinite;
-  animation: 2s animateLeft linear -1s infinite;
+  -webkit-animation: 8s animateLeft linear -1s infinite;
+  animation: 8s animateLeft linear -1s infinite;
 }
 
 @-webkit-keyframes animateLeft {
@@ -391,8 +391,8 @@ a {
   height: 100%;
   background-color: #350f88;
   opacity: 0;
-  -webkit-transition: 0.2s opacity ease-in-out;
-  transition: 0.2s opacity ease-in-out;
+  -webkit-transition: 0.8s opacity ease-in-out;
+  transition: 0.8s opacity ease-in-out;
 }
 
 .animated-button1:hover::before {
@@ -416,8 +416,8 @@ a {
     to(#268bd9)
   );
   background: linear-gradient(to left, rgba(43, 8, 8, 0), #2694d9);
-  -webkit-animation: 2s animateTop linear infinite;
-  animation: 2s animateTop linear infinite;
+  -webkit-animation: 8s animateTop linear infinite;
+  animation: 8s animateTop linear infinite;
 }
 
 @keyframes animateTop {
@@ -444,8 +444,8 @@ a {
     to(#268ed9)
   );
   background: linear-gradient(to top, rgba(43, 8, 8, 0), #26b2d9);
-  -webkit-animation: 2s animateRight linear -1s infinite;
-  animation: 2s animateRight linear -1s infinite;
+  -webkit-animation: 8s animateRight linear -1s infinite;
+  animation: 8s animateRight linear -1s infinite;
 }
 
 @keyframes animateRight {
@@ -472,8 +472,8 @@ a {
     to(#26afd9)
   );
   background: linear-gradient(to right, rgba(43, 8, 8, 0), #266ed9);
-  -webkit-animation: 2s animateBottom linear infinite;
-  animation: 2s animateBottom linear infinite;
+  -webkit-animation: 8s animateBottom linear infinite;
+  animation: 8s animateBottom linear infinite;
 }
 
 @keyframes animateBottom {
@@ -500,8 +500,8 @@ a {
     to(#2682d9)
   );
   background: linear-gradient(to bottom, rgba(43, 8, 8, 0), #26d3d9);
-  -webkit-animation: 2s animateLeft linear -1s infinite;
-  animation: 2s animateLeft linear -1s infinite;
+  -webkit-animation: 8s animateLeft linear -1s infinite;
+  animation: 8s animateLeft linear -1s infinite;
 }
 
 @keyframes animateLeft {
@@ -513,37 +513,6 @@ a {
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
   }
-}
-
-.animated-button2 {
-  background: linear-gradient(-30deg, #3d240b 50%, #2b1a08 50%);
-  padding: 20px 40px;
-  margin: 12px;
-  display: inline-block;
-  -webkit-transform: translate(0%, 0%);
-  transform: translate(0%, 0%);
-  overflow: hidden;
-  color: #f7e6d4;
-  font-size: 20px;
-  letter-spacing: 2.5px;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
-}
-
-.animated-button2::before {
-  content: '';
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  background-color: #ad9985;
-  opacity: 0;
-  -webkit-transition: 0.2s opacity ease-in-out;
-  transition: 0.2s opacity ease-in-out;
 }
 
 .animated-button2:hover::before {
@@ -567,8 +536,8 @@ a {
     to(#d98026)
   );
   background: linear-gradient(to left, rgba(43, 26, 8, 0), #d98026);
-  -webkit-animation: 2s animateTop linear infinite;
-  animation: 2s animateTop linear infinite;
+  -webkit-animation: 8s animateTop linear infinite;
+  animation: 8s animateTop linear infinite;
 }
 
 @keyframes animateTop {
@@ -595,8 +564,8 @@ a {
     to(#d98026)
   );
   background: linear-gradient(to top, rgba(43, 26, 8, 0), #d98026);
-  -webkit-animation: 2s animateRight linear -1s infinite;
-  animation: 2s animateRight linear -1s infinite;
+  -webkit-animation: 8s animateRight linear -1s infinite;
+  animation: 8s animateRight linear -1s infinite;
 }
 
 @keyframes animateRight {
@@ -623,8 +592,8 @@ a {
     to(#d98026)
   );
   background: linear-gradient(to right, rgba(43, 26, 8, 0), #d98026);
-  -webkit-animation: 2s animateBottom linear infinite;
-  animation: 2s animateBottom linear infinite;
+  -webkit-animation: 8s animateBottom linear infinite;
+  animation: 8s animateBottom linear infinite;
 }
 
 @keyframes animateBottom {
@@ -648,11 +617,11 @@ a {
     left top,
     left bottom,
     from(rgba(43, 26, 8, 0)),
-    to(#d98026)
+    to(#2694d9)
   );
-  background: linear-gradient(to bottom, rgba(43, 26, 8, 0), #d98026);
-  -webkit-animation: 2s animateLeft linear -1s infinite;
-  animation: 2s animateLeft linear -1s infinite;
+  background: linear-gradient(to bottom, rgba(43, 26, 8, 0), #26d3d9);
+  -webkit-animation: 8s animateLeft linear -1s infinite;
+  animation: 8s animateLeft linear -1s infinite;
 }
 
 @keyframes animateLeft {
@@ -693,8 +662,8 @@ a {
   height: 100%;
   background-color: #adad85;
   opacity: 0;
-  -webkit-transition: 0.2s opacity ease-in-out;
-  transition: 0.2s opacity ease-in-out;
+  -webkit-transition: 0.8s opacity ease-in-out;
+  transition: 0.8s opacity ease-in-out;
 }
 
 .animated-button3:hover::before {
@@ -715,11 +684,11 @@ a {
     right top,
     left top,
     from(rgba(43, 43, 8, 0)),
-    to(#d9d926)
+    to(#26d6d9)
   );
-  background: linear-gradient(to left, rgba(43, 43, 8, 0), #d9d926);
-  -webkit-animation: 2s animateTop linear infinite;
-  animation: 2s animateTop linear infinite;
+  background: linear-gradient(to left, rgba(43, 43, 8, 0), #26bbd9);
+  -webkit-animation: 8s animateTop linear infinite;
+  animation: 8s animateTop linear infinite;
 }
 
 @keyframes animateTop {
@@ -743,11 +712,11 @@ a {
     left bottom,
     left top,
     from(rgba(43, 43, 8, 0)),
-    to(#d9d926)
+    to(#26c4d9)
   );
-  background: linear-gradient(to top, rgba(43, 43, 8, 0), #d9d926);
-  -webkit-animation: 2s animateRight linear -1s infinite;
-  animation: 2s animateRight linear -1s infinite;
+  background: linear-gradient(to top, rgba(43, 43, 8, 0), #26d6d9);
+  -webkit-animation: 8s animateRight linear -1s infinite;
+  animation: 8s animateRight linear -1s infinite;
 }
 
 @keyframes animateRight {
@@ -771,11 +740,11 @@ a {
     left top,
     right top,
     from(rgba(43, 43, 8, 0)),
-    to(#d9d926)
+    to(#26d9d9)
   );
-  background: linear-gradient(to right, rgba(43, 43, 8, 0), #d9d926);
-  -webkit-animation: 2s animateBottom linear infinite;
-  animation: 2s animateBottom linear infinite;
+  background: linear-gradient(to right, rgba(43, 43, 8, 0), #26d0d9);
+  -webkit-animation: 8s animateBottom linear infinite;
+  animation: 8s animateBottom linear infinite;
 }
 
 @keyframes animateBottom {
@@ -799,11 +768,11 @@ a {
     left top,
     left bottom,
     from(rgba(43, 43, 8, 0)),
-    to(#d9d926)
+    to(#263ed9)
   );
-  background: linear-gradient(to bottom, rgba(43, 43, 8, 0), #d9d926);
-  -webkit-animation: 2s animateLeft linear -1s infinite;
-  animation: 2s animateLeft linear -1s infinite;
+  background: linear-gradient(to bottom, rgba(43, 43, 8, 0), #2677d9);
+  -webkit-animation: 8s animateLeft linear -1s infinite;
+  animation: 8s animateLeft linear -1s infinite;
 }
 
 @keyframes animateLeft {
@@ -844,8 +813,8 @@ a {
   height: 100%;
   background-color: #99ad85;
   opacity: 0;
-  -webkit-transition: 0.2s opacity ease-in-out;
-  transition: 0.2s opacity ease-in-out;
+  -webkit-transition: 0.8s opacity ease-in-out;
+  transition: 0.8s opacity ease-in-out;
 }
 
 .animated-button4:hover::before {
@@ -869,8 +838,8 @@ a {
     to(#80d926)
   );
   background: linear-gradient(to left, rgba(26, 43, 8, 0), #80d926);
-  -webkit-animation: 2s animateTop linear infinite;
-  animation: 2s animateTop linear infinite;
+  -webkit-animation: 8s animateTop linear infinite;
+  animation: 8s animateTop linear infinite;
 }
 
 @keyframes animateTop {
@@ -897,8 +866,8 @@ a {
     to(#80d926)
   );
   background: linear-gradient(to top, rgba(26, 43, 8, 0), #80d926);
-  -webkit-animation: 2s animateRight linear -1s infinite;
-  animation: 2s animateRight linear -1s infinite;
+  -webkit-animation: 8s animateRight linear -1s infinite;
+  animation: 8s animateRight linear -1s infinite;
 }
 
 @keyframes animateRight {
@@ -925,8 +894,8 @@ a {
     to(#80d926)
   );
   background: linear-gradient(to right, rgba(26, 43, 8, 0), #80d926);
-  -webkit-animation: 2s animateBottom linear infinite;
-  animation: 2s animateBottom linear infinite;
+  -webkit-animation: 8s animateBottom linear infinite;
+  animation: 10s animateBottom linear infinite;
 }
 
 @keyframes animateBottom {
@@ -953,8 +922,8 @@ a {
     to(#80d926)
   );
   background: linear-gradient(to bottom, rgba(26, 43, 8, 0), #80d926);
-  -webkit-animation: 2s animateLeft linear -1s infinite;
-  animation: 2s animateLeft linear -1s infinite;
+  -webkit-animation: 8s animateLeft linear -1s infinite;
+  animation: 8s animateLeft linear -1s infinite;
 }
 
 @keyframes animateLeft {
@@ -995,8 +964,8 @@ a {
   height: 100%;
   background-color: #85ad85;
   opacity: 0;
-  -webkit-transition: 0.2s opacity ease-in-out;
-  transition: 0.2s opacity ease-in-out;
+  -webkit-transition: 0.8s opacity ease-in-out;
+  transition: 0.8s opacity ease-in-out;
 }
 
 .animated-button5:hover::before {
@@ -1020,8 +989,8 @@ a {
     to(#26d926)
   );
   background: linear-gradient(to left, rgba(8, 43, 8, 0), #26d926);
-  -webkit-animation: 2s animateTop linear infinite;
-  animation: 2s animateTop linear infinite;
+  -webkit-animation: 8s animateTop linear infinite;
+  animation: 8s animateTop linear infinite;
 }
 
 @keyframes animateTop {
@@ -1048,8 +1017,8 @@ a {
     to(#26d926)
   );
   background: linear-gradient(to top, rgba(8, 43, 8, 0), #26d926);
-  -webkit-animation: 2s animateRight linear -1s infinite;
-  animation: 2s animateRight linear -1s infinite;
+  -webkit-animation: 8s animateRight linear -1s infinite;
+  animation: 8s animateRight linear -1s infinite;
 }
 
 @keyframes animateRight {
@@ -1076,8 +1045,8 @@ a {
     to(#26d926)
   );
   background: linear-gradient(to right, rgba(8, 43, 8, 0), #26d926);
-  -webkit-animation: 2s animateBottom linear infinite;
-  animation: 2s animateBottom linear infinite;
+  -webkit-animation: 8s animateBottom linear infinite;
+  animation: 8s animateBottom linear infinite;
 }
 
 @keyframes animateBottom {
@@ -1104,8 +1073,8 @@ a {
     to(#26d926)
   );
   background: linear-gradient(to bottom, rgba(8, 43, 8, 0), #26d926);
-  -webkit-animation: 2s animateLeft linear -1s infinite;
-  animation: 2s animateLeft linear -1s infinite;
+  -webkit-animation: 8s animateLeft linear -1s infinite;
+  animation: 8s animateLeft linear -1s infinite;
 }
 
 @keyframes animateLeft {
@@ -1146,8 +1115,8 @@ a {
   height: 100%;
   background-color: #85ad99;
   opacity: 0;
-  -webkit-transition: 0.2s opacity ease-in-out;
-  transition: 0.2s opacity ease-in-out;
+  -webkit-transition: 0.8s opacity ease-in-out;
+  transition: 0.8s opacity ease-in-out;
 }
 
 .animated-button6:hover::before {
@@ -1171,8 +1140,8 @@ a {
     to(#26d980)
   );
   background: linear-gradient(to left, rgba(8, 43, 26, 0), #26d980);
-  -webkit-animation: 2s animateTop linear infinite;
-  animation: 2s animateTop linear infinite;
+  -webkit-animation: 8s animateTop linear infinite;
+  animation: 8s animateTop linear infinite;
 }
 
 @keyframes animateTop {
@@ -1199,8 +1168,8 @@ a {
     to(#26d980)
   );
   background: linear-gradient(to top, rgba(8, 43, 26, 0), #26d980);
-  -webkit-animation: 2s animateRight linear -1s infinite;
-  animation: 2s animateRight linear -1s infinite;
+  -webkit-animation: 8s animateRight linear -1s infinite;
+  animation: 8s animateRight linear -1s infinite;
 }
 
 @keyframes animateRight {
@@ -1227,8 +1196,8 @@ a {
     to(#26d980)
   );
   background: linear-gradient(to right, rgba(8, 43, 26, 0), #26d980);
-  -webkit-animation: 2s animateBottom linear infinite;
-  animation: 2s animateBottom linear infinite;
+  -webkit-animation: 8s animateBottom linear infinite;
+  animation: 8s animateBottom linear infinite;
 }
 
 @keyframes animateBottom {
@@ -1255,8 +1224,8 @@ a {
     to(#26d980)
   );
   background: linear-gradient(to bottom, rgba(8, 43, 26, 0), #26d980);
-  -webkit-animation: 2s animateLeft linear -1s infinite;
-  animation: 2s animateLeft linear -1s infinite;
+  -webkit-animation: 8s animateLeft linear -1s infinite;
+  animation: 8s animateLeft linear -1s infinite;
 }
 
 @keyframes animateLeft {
@@ -1297,8 +1266,8 @@ a {
   height: 100%;
   background-color: #85adad;
   opacity: 0;
-  -webkit-transition: 0.2s opacity ease-in-out;
-  transition: 0.2s opacity ease-in-out;
+  -webkit-transition: 0.8s opacity ease-in-out;
+  transition: 0.8s opacity ease-in-out;
 }
 
 .animated-button7:hover::before {
@@ -1322,8 +1291,8 @@ a {
     to(#26d9d9)
   );
   background: linear-gradient(to left, rgba(8, 43, 43, 0), #26d9d9);
-  -webkit-animation: 2s animateTop linear infinite;
-  animation: 2s animateTop linear infinite;
+  -webkit-animation: 8s animateTop linear infinite;
+  animation: 8s animateTop linear infinite;
 }
 
 @keyframes animateTop {
@@ -1350,8 +1319,8 @@ a {
     to(#26d9d9)
   );
   background: linear-gradient(to top, rgba(8, 43, 43, 0), #26d9d9);
-  -webkit-animation: 2s animateRight linear -1s infinite;
-  animation: 2s animateRight linear -1s infinite;
+  -webkit-animation: 8s animateRight linear -1s infinite;
+  animation: 8s animateRight linear -1s infinite;
 }
 
 @keyframes animateRight {
@@ -1378,8 +1347,8 @@ a {
     to(#26d9d9)
   );
   background: linear-gradient(to right, rgba(8, 43, 43, 0), #26d9d9);
-  -webkit-animation: 2s animateBottom linear infinite;
-  animation: 2s animateBottom linear infinite;
+  -webkit-animation: 8s animateBottom linear infinite;
+  animation: 8s animateBottom linear infinite;
 }
 
 @keyframes animateBottom {
@@ -1406,8 +1375,8 @@ a {
     to(#26d9d9)
   );
   background: linear-gradient(to bottom, rgba(8, 43, 43, 0), #26d9d9);
-  -webkit-animation: 2s animateLeft linear -1s infinite;
-  animation: 2s animateLeft linear -1s infinite;
+  -webkit-animation: 8s animateLeft linear -1s infinite;
+  animation: 8s animateLeft linear -1s infinite;
 }
 
 @keyframes animateLeft {
@@ -1448,8 +1417,8 @@ a {
   height: 100%;
   background-color: #8599ad;
   opacity: 0;
-  -webkit-transition: 0.2s opacity ease-in-out;
-  transition: 0.2s opacity ease-in-out;
+  -webkit-transition: 0.8s opacity ease-in-out;
+  transition: 0.8s opacity ease-in-out;
 }
 
 .animated-button8:hover::before {
@@ -1473,8 +1442,8 @@ a {
     to(#2680d9)
   );
   background: linear-gradient(to left, rgba(8, 26, 43, 0), #2680d9);
-  -webkit-animation: 2s animateTop linear infinite;
-  animation: 2s animateTop linear infinite;
+  -webkit-animation: 8s animateTop linear infinite;
+  animation: 8s animateTop linear infinite;
 }
 
 @keyframes animateTop {
@@ -1501,8 +1470,8 @@ a {
     to(#2680d9)
   );
   background: linear-gradient(to top, rgba(8, 26, 43, 0), #2680d9);
-  -webkit-animation: 2s animateRight linear -1s infinite;
-  animation: 2s animateRight linear -1s infinite;
+  -webkit-animation: 8s animateRight linear -1s infinite;
+  animation: 8s animateRight linear -1s infinite;
 }
 
 @keyframes animateRight {
@@ -1529,8 +1498,8 @@ a {
     to(#2680d9)
   );
   background: linear-gradient(to right, rgba(8, 26, 43, 0), #2680d9);
-  -webkit-animation: 2s animateBottom linear infinite;
-  animation: 2s animateBottom linear infinite;
+  -webkit-animation: 8s animateBottom linear infinite;
+  animation: 8s animateBottom linear infinite;
 }
 
 @keyframes animateBottom {
@@ -1557,8 +1526,8 @@ a {
     to(#2680d9)
   );
   background: linear-gradient(to bottom, rgba(8, 26, 43, 0), #2680d9);
-  -webkit-animation: 2s animateLeft linear -1s infinite;
-  animation: 2s animateLeft linear -1s infinite;
+  -webkit-animation: 8s animateLeft linear -1s infinite;
+  animation: 8s animateLeft linear -1s infinite;
 }
 
 @keyframes animateLeft {
@@ -1599,8 +1568,8 @@ a {
   height: 100%;
   background-color: #8585ad;
   opacity: 0;
-  -webkit-transition: 0.2s opacity ease-in-out;
-  transition: 0.2s opacity ease-in-out;
+  -webkit-transition: 0.8s opacity ease-in-out;
+  transition: 0.8s opacity ease-in-out;
 }
 
 .animated-button9:hover::before {
@@ -1624,8 +1593,8 @@ a {
     to(#2626d9)
   );
   background: linear-gradient(to left, rgba(8, 8, 43, 0), #2626d9);
-  -webkit-animation: 2s animateTop linear infinite;
-  animation: 2s animateTop linear infinite;
+  -webkit-animation: 8s animateTop linear infinite;
+  animation: 8s animateTop linear infinite;
 }
 
 @keyframes animateTop {
@@ -1652,8 +1621,8 @@ a {
     to(#2626d9)
   );
   background: linear-gradient(to top, rgba(8, 8, 43, 0), #2626d9);
-  -webkit-animation: 2s animateRight linear -1s infinite;
-  animation: 2s animateRight linear -1s infinite;
+  -webkit-animation: 8s animateRight linear -1s infinite;
+  animation: 8s animateRight linear -1s infinite;
 }
 
 @keyframes animateRight {
@@ -1680,8 +1649,8 @@ a {
     to(#2626d9)
   );
   background: linear-gradient(to right, rgba(8, 8, 43, 0), #2626d9);
-  -webkit-animation: 2s animateBottom linear infinite;
-  animation: 2s animateBottom linear infinite;
+  -webkit-animation: 8s animateBottom linear infinite;
+  animation: 8s animateBottom linear infinite;
 }
 
 @keyframes animateBottom {
@@ -1708,8 +1677,8 @@ a {
     to(#2626d9)
   );
   background: linear-gradient(to bottom, rgba(8, 8, 43, 0), #2626d9);
-  -webkit-animation: 2s animateLeft linear -1s infinite;
-  animation: 2s animateLeft linear -1s infinite;
+  -webkit-animation: 8s animateLeft linear -1s infinite;
+  animation: 8s animateLeft linear -1s infinite;
 }
 
 @keyframes animateLeft {
@@ -1750,8 +1719,8 @@ a {
   height: 100%;
   background-color: #9985ad;
   opacity: 0;
-  -webkit-transition: 0.2s opacity ease-in-out;
-  transition: 0.2s opacity ease-in-out;
+  -webkit-transition: 0.8s opacity ease-in-out;
+  transition: 0.8s opacity ease-in-out;
 }
 
 .animated-button10:hover::before {
@@ -1775,8 +1744,8 @@ a {
     to(#8026d9)
   );
   background: linear-gradient(to left, rgba(26, 8, 43, 0), #8026d9);
-  -webkit-animation: 2s animateTop linear infinite;
-  animation: 2s animateTop linear infinite;
+  -webkit-animation: 8s animateTop linear infinite;
+  animation: 8s animateTop linear infinite;
 }
 
 @keyframes animateTop {
@@ -1803,8 +1772,8 @@ a {
     to(#8026d9)
   );
   background: linear-gradient(to top, rgba(26, 8, 43, 0), #8026d9);
-  -webkit-animation: 2s animateRight linear -1s infinite;
-  animation: 2s animateRight linear -1s infinite;
+  -webkit-animation: 8s animateRight linear -1s infinite;
+  animation: 8s animateRight linear -1s infinite;
 }
 
 @keyframes animateRight {
@@ -1831,8 +1800,8 @@ a {
     to(#8026d9)
   );
   background: linear-gradient(to right, rgba(26, 8, 43, 0), #8026d9);
-  -webkit-animation: 2s animateBottom linear infinite;
-  animation: 2s animateBottom linear infinite;
+  -webkit-animation: 8s animateBottom linear infinite;
+  animation: 8s animateBottom linear infinite;
 }
 
 @keyframes animateBottom {
@@ -1859,8 +1828,8 @@ a {
     to(#8026d9)
   );
   background: linear-gradient(to bottom, rgba(26, 8, 43, 0), #8026d9);
-  -webkit-animation: 2s animateLeft linear -1s infinite;
-  animation: 2s animateLeft linear -1s infinite;
+  -webkit-animation: 8s animateLeft linear -1s infinite;
+  animation: 8s animateLeft linear -1s infinite;
 }
 
 @keyframes animateLeft {
@@ -1901,8 +1870,8 @@ a {
   height: 100%;
   background-color: #ad85ad;
   opacity: 0;
-  -webkit-transition: 0.2s opacity ease-in-out;
-  transition: 0.2s opacity ease-in-out;
+  -webkit-transition: 0.8s opacity ease-in-out;
+  transition: 0.8s opacity ease-in-out;
 }
 
 .animated-button11:hover::before {
@@ -1926,8 +1895,8 @@ a {
     to(#d926d9)
   );
   background: linear-gradient(to left, rgba(43, 8, 43, 0), #d926d9);
-  -webkit-animation: 2s animateTop linear infinite;
-  animation: 2s animateTop linear infinite;
+  -webkit-animation: 8s animateTop linear infinite;
+  animation: 8s animateTop linear infinite;
 }
 
 @keyframes animateTop {
@@ -1954,8 +1923,8 @@ a {
     to(#d926d9)
   );
   background: linear-gradient(to top, rgba(43, 8, 43, 0), #d926d9);
-  -webkit-animation: 2s animateRight linear -1s infinite;
-  animation: 2s animateRight linear -1s infinite;
+  -webkit-animation: 8s animateRight linear -1s infinite;
+  animation: 8s animateRight linear -1s infinite;
 }
 
 @keyframes animateRight {
@@ -1982,8 +1951,8 @@ a {
     to(#d926d9)
   );
   background: linear-gradient(to right, rgba(43, 8, 43, 0), #d926d9);
-  -webkit-animation: 2s animateBottom linear infinite;
-  animation: 2s animateBottom linear infinite;
+  -webkit-animation: 8s animateBottom linear infinite;
+  animation: 8s animateBottom linear infinite;
 }
 
 @keyframes animateBottom {
@@ -2010,8 +1979,8 @@ a {
     to(#d926d9)
   );
   background: linear-gradient(to bottom, rgba(43, 8, 43, 0), #d926d9);
-  -webkit-animation: 2s animateLeft linear -1s infinite;
-  animation: 2s animateLeft linear -1s infinite;
+  -webkit-animation: 8s animateLeft linear -1s infinite;
+  animation: 8s animateLeft linear -1s infinite;
 }
 
 @keyframes animateLeft {
@@ -2052,8 +2021,8 @@ a {
   height: 100%;
   background-color: #ad8599;
   opacity: 0;
-  -webkit-transition: 0.2s opacity ease-in-out;
-  transition: 0.2s opacity ease-in-out;
+  -webkit-transition: 0.8s opacity ease-in-out;
+  transition: 0.8s opacity ease-in-out;
 }
 
 .animated-button12:hover::before {
@@ -2077,8 +2046,8 @@ a {
     to(#d92680)
   );
   background: linear-gradient(to left, rgba(43, 8, 26, 0), #d92680);
-  -webkit-animation: 2s animateTop linear infinite;
-  animation: 2s animateTop linear infinite;
+  -webkit-animation: 8s animateTop linear infinite;
+  animation: 8s animateTop linear infinite;
 }
 
 @keyframes animateTop {
@@ -2105,8 +2074,8 @@ a {
     to(#d92680)
   );
   background: linear-gradient(to top, rgba(43, 8, 26, 0), #d92680);
-  -webkit-animation: 2s animateRight linear -1s infinite;
-  animation: 2s animateRight linear -1s infinite;
+  -webkit-animation: 8s animateRight linear -1s infinite;
+  animation: 8s animateRight linear -1s infinite;
 }
 
 @keyframes animateRight {
@@ -2133,8 +2102,8 @@ a {
     to(#d92680)
   );
   background: linear-gradient(to right, rgba(43, 8, 26, 0), #d92680);
-  -webkit-animation: 2s animateBottom linear infinite;
-  animation: 2s animateBottom linear infinite;
+  -webkit-animation: 8s animateBottom linear infinite;
+  animation: 8s animateBottom linear infinite;
 }
 
 @keyframes animateBottom {
@@ -2161,8 +2130,8 @@ a {
     to(#d92680)
   );
   background: linear-gradient(to bottom, rgba(43, 8, 26, 0), #d92680);
-  -webkit-animation: 2s animateLeft linear -1s infinite;
-  animation: 2s animateLeft linear -1s infinite;
+  -webkit-animation: 8s animateLeft linear -1s infinite;
+  animation: 8s animateLeft linear -1s infinite;
 }
 
 @keyframes animateLeft {
