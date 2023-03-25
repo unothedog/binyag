@@ -176,7 +176,7 @@ a {
     font-size: 1.4rem;
   }
   .text h3 {
-    font-size: 5em;
+    font-size: 4em;
     display: flex;
     justify-content: center;
   }
@@ -210,17 +210,17 @@ a {
 
 @media (max-width: 735px) {
   .showcase {
-    padding: 40px;
+    padding: 20px;
   }
   .text h2 {
     font-size: 1rem;
   }
   .text h3 {
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   .text h4 {
-    font-size: 3em;
+    font-size: 1.2rem;
     display: flex;
     justify-content: center;
   }
@@ -231,13 +231,14 @@ a {
   .text a {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 0.8rem;
   }
 }
 
 @media (max-width: 668px) {
   .showcase {
-    padding: 40px;
+    padding: 20px;
   }
   .text h2 {
     font-size: 1rem;
@@ -252,6 +253,7 @@ a {
   .text a {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 0.8rem;
   }
 
