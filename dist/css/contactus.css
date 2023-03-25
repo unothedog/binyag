@@ -1,0 +1,59 @@
+.animationtext {
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 0.17em solid #111;
+  -webkit-animation: typing 3.5s steps(30, end),
+    blinking-cursor 0.5s step-end infinite;
+  animation: typing 3.5s steps(30, end), blinking-cursor 0.5s step-end infinite;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@-webkit-keyframes blinking-cursor {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fff;
+  }
+}
+@keyframes blinking-cursor {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fff;
+  }
+}
+/*section form*/
+.b-color {
+  background-color: rgba(17, 17, 17, 0.079);
+  color: #111;
+}
+
+.mapform {
+  font-family: 'Alfa Slab One', cursive;
+}
+
+/*section form*/
+/*footer*/
+
+/*footer*/
