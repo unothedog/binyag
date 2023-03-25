@@ -247,6 +247,10 @@ a {
     font-size: 4rem;
   }
 
+  .text h4 {
+    font-size: 1.9rem;
+  }
+
   .showcase img {
     width: 100%;
   }
