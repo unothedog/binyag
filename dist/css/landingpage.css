@@ -132,6 +132,10 @@
   font-family: 'Alfa Slab One', cursive;
 }
 
+.wiggle {
+  animation: 8s wiggle linear infinite;
+}
+
 .text a:hover {
   letter-spacing: 6px;
 }
@@ -2146,7 +2150,7 @@ a {
 }
 /*# sourceMappingURL=button.css.map */
 /* Keyframes */
-/* @keyframes wiggle {
+@keyframes wiggle {
   0%,
   7% {
     transform: rotateZ(0);
@@ -2170,7 +2174,7 @@ a {
   100% {
     transform: rotateZ(0);
   }
-} */
+}
 
 @media (max-width: 991px) {
   .showcase {
