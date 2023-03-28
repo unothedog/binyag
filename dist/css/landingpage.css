@@ -84,7 +84,7 @@ img .imagetwo {
 .text {
   position: absolute;
   z-index: 10;
-  margin-top: 200px;
+  margin-top: 300px;
 }
 
 .text h2 {
@@ -2189,12 +2189,6 @@ a {
   }
 }
 
-@media (max-width: 2000px) {
-  .showcase img {
-    background-size: cover;
-  }
-} /*# sourceMappingURL=landingpage.css.map */
-
 @media (max-width: 991px) {
   .showcase {
     padding: 60px;
@@ -2277,7 +2271,7 @@ a {
     font-size: 1rem;
   }
   .text h3 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .text h4 {
