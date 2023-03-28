@@ -15,6 +15,14 @@
   font-family: 'Alfa Slab One', cursive;
 }
 
+/* body {
+  background-image: url(/dist/image/Screenshot_2023-03-28_200625-removebg-preview.png);
+  z-index: 100;
+  position: absolute;
+  background-repeat: no-repeat;
+  max-width: 10px;
+} */
+
 .showcase {
   width: 100%;
   min-height: 100vh;
@@ -38,6 +46,16 @@
   opacity: 0.8;
 }
 
+.showcase img .imagetwo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 10px;
+  max-height: 10px;
+
+  opacity: 0.8;
+}
+
 .showcase video {
   position: absolute;
   top: 0;
@@ -55,7 +73,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: #03a8f44f;
+  background: #0224344f;
   mix-blend-mode: overlay;
 }
 
