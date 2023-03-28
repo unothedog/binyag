@@ -84,22 +84,25 @@ img .imagetwo {
 .text {
   position: absolute;
   z-index: 10;
-  margin-top: 300px;
+  margin-top: 280px;
 }
 
 .text h2 {
-  font-size: 2em;
+  font-size: 1.4em;
   font-weight: 300;
   color: #fff;
   line-height: 1em;
+  display: flex;
+  justify-content: center;
   font-family: 'Poppins', sans-serif;
 }
 
 .text h3 {
-  font-size: 10rem;
+  font-size: 7rem;
   font-weight: 600;
   color: #fff;
   line-height: 2em;
+  align-items: center;
 
   font-family: 'Great Vibes', cursive;
 }
@@ -2229,10 +2232,11 @@ a {
   }
 } /*# sourceMappingURL=landingpage.css.map */
 
-@media (max-width: 735px) {
+@media (max-width: 768px) {
   .showcase {
     padding: 20px;
   }
+
   .text h2 {
     font-size: 1rem;
   }
@@ -2263,7 +2267,7 @@ a {
   }
 }
 
-@media (max-width: 668px) {
+@media (max-width: 467px) {
   .showcase {
     padding: 20px;
   }
